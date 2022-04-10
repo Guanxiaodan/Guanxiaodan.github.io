@@ -1,12 +1,17 @@
 module.exports = [
   {
-    title: "我爱工作",
+    title: "react起步",
     collapsable: true,
-    children: ["./notes/one.md"],
+    children: ["./notes/reactStart.md"],
   },
   {
-    title: "工作爱我",
+    title: "npx是什么",
     collapsable: true,
-    children: ["./notes/two.md"],
+    children: ["./notes/npx.md"],
+  },
+  {
+    title: "markdown用法大全",
+    collapsable: true,
+    children: ["./notes/useMarkdown.md"],
   },
 ];

@@ -13,14 +13,12 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-# 启动：
+# 本地启动：
+
+需要全局安装 vuepress
 
 在 gxd-blog 文件夹下面：
 vuepress dev docs
-
-构建：
-在 docs 目录下运行：
-vuepress build
 
 启动 dist 文件夹下 html 的命令:
 http-server
