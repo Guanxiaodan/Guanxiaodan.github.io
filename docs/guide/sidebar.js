@@ -14,4 +14,13 @@ module.exports = [
     collapsable: true,
     children: ["./notes/useMarkdown.md"],
   },
+  {
+    title: "如何学习",
+    collapsable: true,
+    children: [
+      "./notes/howToLearn.md",
+      "./notes/howToSearch.md",
+      "./notes/markItDown.md",
+    ],
+  },
 ];
