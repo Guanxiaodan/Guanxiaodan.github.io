@@ -1,14 +1,26 @@
 module.exports = [
   {
-    text: "React",
-    link: "/guide/",
+    text: "收集癖",
+    link: "/collection/",
   },
   {
-    text: "TypeScript",
+    text: "前端八股文",
     items: [
-      { text: "第一篇", link: "/bao/zero/" },
-      { text: "第二篇", link: "/bao/high/" },
+      { text: "JavaScript", link: "/knowledge/JavaScript/" },
+      { text: "ES6", link: "/knowledge/ES6/" },
+      { text: "React", link: "/knowledge/React/" },
+      { text: "TypeScript", link: "/knowledge/TypeScript/" },
+      { text: "HTML5", link: "/knowledge/HTML5/" },
+      { text: "网络和浏览器", link: "/knowledge/NetworkAndBrower/" },
+      { text: "Webpack", link: "/knowledge/Webpack/" },
+      { text: "CSS", link: "/knowledge/CSS/" },
+      { text: "设计模式", link: "/knowledge/DesignPatterns/" },
+      { text: "工程化", link: "/knowledge/Engineering/" },
     ],
+  },
+  {
+    text: "扩展下广度吧",
+    link: "/range/",
   },
   {
     text: "工具箱",
