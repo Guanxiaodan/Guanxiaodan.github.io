@@ -1,21 +1,21 @@
 module.exports = [
   {
-    title: "react起步",
+    title: "1",
     collapsable: true,
     children: ["./notes/reactStart.md"],
   },
   {
-    title: "npx是什么",
+    title: "2",
     collapsable: true,
     children: ["./notes/npx.md"],
   },
   {
-    title: "markdown用法大全",
+    title: "3",
     collapsable: true,
     children: ["./notes/useMarkdown.md"],
   },
   {
-    title: "如何学习",
+    title: "4",
     collapsable: true,
     children: [
       "./notes/howToLearn.md",

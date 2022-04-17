@@ -1,32 +1,3 @@
 # react 起步
 
 ## 一、使用 html 还原本来面貌：
-
-```
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-
-    <title>Hello React!</title>
-
-    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
-  </head>
-
-  <body>
-    <div id="root"></div>
-
-    <script type="text/babel">
-      class App extends React.Component {
-        render() {
-          return <h1>Hello world!</h1>
-        }
-      }
-
-      ReactDOM.render(<App />, document.getElementById('root'))
-    </script>
-  </body>
-</html>
-```

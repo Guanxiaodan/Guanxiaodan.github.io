@@ -7,6 +7,9 @@ module.exports = [
       "./howToLearn/howToSearch.md",
       "./howToLearn/markItDown.md",
       "./howToLearn/memory.md",
+      "./howToLearn/knowledgeInMind.md",
+      "./howToLearn/howToUseKnowledge.md",
+      "./howToLearn/reading.md",
     ],
   },
   {
