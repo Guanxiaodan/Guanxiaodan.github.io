@@ -2,7 +2,7 @@
 set -e
 # 先提交源文件
 git add .
-git commit -m '提交源文件'
+git commit -m 'typescript'
 git push
 # 生成静态资源
 npm run docs:build
@@ -10,7 +10,7 @@ npm run docs:build
 cd docs/.vuepress/dist
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'typescript'
 # git push -f https://github.com/Guanxiaodan/Guanxiaodan.github.io.git master
 git push -f https://github.com/Guanxiaodan/guanxiaodan.github.io.git master:gh-pages
 cd ..
