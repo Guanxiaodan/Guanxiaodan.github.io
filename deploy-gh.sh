@@ -16,3 +16,8 @@ git push -f https://github.com/Guanxiaodan/guanxiaodan.github.io.git master:gh-p
 cd ..
 rm -rf ./dist
 
+# 如果在git push -f这个阶段有问题，尝试以下命令
+# git remote add origin git@github.com:Guanxiaodan/guanxiaodan.github.io.git
+# gco -b gh-pages
+# git push --set-upstream origin gh-pages
+# git push -f origin gh-pages
