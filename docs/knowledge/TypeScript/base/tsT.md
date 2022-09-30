@@ -19,7 +19,7 @@ function log2(value: any): any {
 
 - 在使用的时候，可以指定输入的类型
 - 也可以利用 TS 类型推断的特性，直接写实参
-- <T>叫做泛型变量
+- T 叫做泛型变量
 
 ```typescript
 function log1(value: T): T {

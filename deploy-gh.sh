@@ -10,7 +10,7 @@ npm run docs:build
 cd docs/.vuepress/dist
 git init
 git add -A
-git commit -m 'typescript'
+git commit -m 'typescript泛型'
 # git push -f https://github.com/Guanxiaodan/Guanxiaodan.github.io.git master
 git push -f https://github.com/Guanxiaodan/guanxiaodan.github.io.git master:gh-pages
 cd ..
