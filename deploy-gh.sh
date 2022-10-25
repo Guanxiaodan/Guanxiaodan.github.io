@@ -8,6 +8,7 @@ git push
 npm run docs:build
 # 进入生成的构建文件夹 gh-pages
 cd docs/.vuepress/dist
+# 下次部署再有问题的话把这个git init删掉试试
 git init
 git add -A
 git commit -m 'typescript泛型'
@@ -19,5 +20,7 @@ rm -rf ./dist
 # 如果在git push -f这个阶段有问题，尝试以下命令
 # git remote add origin git@github.com:Guanxiaodan/guanxiaodan.github.io.git
 # gco -b gh-pages
+# git pull
+# git branch --set-upstream-to=origin/gh-pages gh-pages
 # git push --set-upstream origin gh-pages
 # git push -f origin gh-pages

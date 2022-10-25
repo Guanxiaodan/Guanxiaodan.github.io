@@ -9,6 +9,8 @@ module.exports = [
       "../knowledge/TypeScript/base/functionKnowledge.md",
       "../knowledge/TypeScript/base/TsClass.md",
       "../knowledge/TypeScript/base/tsT.md",
+      "../knowledge/TypeScript/base/ts的类型检查机制.md",
+      "../knowledge/TypeScript/base/TS的高级类型.md",
     ],
   },
   {
